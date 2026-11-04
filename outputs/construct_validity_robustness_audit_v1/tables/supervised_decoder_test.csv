@@ -1,0 +1,5 @@
+model,estimator,development_selection,regularization_C,test_accuracy,ci_low,ci_high,separate_estimand
+GPT-OSS-20B,unsupervised_argmax,none,,0.37152103559870553,0.34841628959276016,0.3935275080906149,True
+GPT-OSS-20B,multinomial_logistic_decoder,5-fold participant-grouped CV,1.0,0.47637540453074434,0.4520252754374595,0.5000159615750707,True
+Llama-3.1-8B-Instruct,unsupervised_argmax,none,,0.5190938511326861,0.4928548282566429,0.5424236713668787,True
+Llama-3.1-8B-Instruct,multinomial_logistic_decoder,5-fold participant-grouped CV,10.0,0.5883495145631068,0.5660072010258812,0.6119828124679255,True
